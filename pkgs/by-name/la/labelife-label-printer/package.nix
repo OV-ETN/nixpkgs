@@ -9,7 +9,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "labelife-label-printer";
-  version = "2.0.12";
+  version = "2.0.04";
 
   arch =
     {
@@ -34,7 +34,7 @@ stdenv.mkDerivation (finalAttrs: {
   unpackPhase = ''
     runHook preUnpack
 
-    tar -xzf ${finalAttrs.src}/LabelPrinter-${finalAttrs.version}.004.tar.gz --strip-components=1
+    tar -xzf ${finalAttrs.src}/LabelPrinter-${finalAttrs.version}.000.tar.gz --strip-components=1
 
     runHook postUnpack
   '';
