@@ -1,4 +1,4 @@
-{
+ {
   lib,
   stdenv,
   fetchzip,
@@ -9,7 +9,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "labelife-label-printer";
-  version = "2.0.11";
+  version = "2.0.12";
 
   arch =
     {
