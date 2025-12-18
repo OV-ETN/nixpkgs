@@ -9,7 +9,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "labelife-label-printer";
-  version = "2.0.1";
+  version = "2.0.11";
 
   arch =
     {
